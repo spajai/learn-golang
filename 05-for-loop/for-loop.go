@@ -8,7 +8,7 @@ func main () {
     i:= 1
 
     // simple loop
-    for i < 10 {
+    for i < 10000000 {
         f.Println("Printing i: ",i)
         i++
     }
