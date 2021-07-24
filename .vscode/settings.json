@@ -1,0 +1,31 @@
+{
+    "remote.SSH.showLoginTerminal": true,
+    "window.zoomLevel": 1,
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize":13,
+    "go.lintOnSave": "file",
+    "go.useLanguageServer": true,
+    "go.languageServerExperimentalFeatures": {
+            "diagnostics": true ,// for diagnostics as you type
+            "autoComplete": true,
+            "documentLink": true,
+            "findReferences": true,
+            "documentSymbols": true,
+            "format": true,
+            "goToDefinition": true,
+            "goToTypeDefinition": true,
+            "hover": true,
+            "incrementalSync": true,
+            "rename": true,
+            "signatureHelp": true,
+            "workspaceSymbols": true,
+    },
+    "[go]": {
+        "editor.snippetSuggestions": "none",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": false,
+        },
+    },
+}
